@@ -40,7 +40,7 @@ const showImages = (images) => {
     errorMessage.innerHTML = "";
     const h1 = document.createElement("h3");
     const img = document.createElement("img");
-    img.setAttribute("src", "error-search.png");
+    img.setAttribute("src", "images/error-search.png");
     h1.innerText = "Sorry. Searched image not found. Please provide a valid keyword";
     h1.className = "error-text";
     errorMessage.appendChild(h1);
