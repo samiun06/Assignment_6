@@ -33,7 +33,7 @@ const showImages = (images) => {
     document.getElementById("search").value = "";
     document.getElementById("duration").value = "";
 
-  //One bonus feature below. It checks whether the searched keyword is valid.
+    //One bonus feature below. It checks whether the searched keyword is valid.
   } else {
     imagesArea.style.display = "none";
     const errorMessage = document.getElementById("error-message");
@@ -47,7 +47,7 @@ const showImages = (images) => {
     errorMessage.appendChild(img);
     errorMessage.style.display = "block";
     document.getElementById("search").value = "";
-    
+
   }
   //One bonus feature above. It checks whether the searched keyword is valid.
 }
@@ -95,13 +95,15 @@ const createSlider = () => {
   button.className = "back-btn"
   button.addEventListener("click", () => {
     document.querySelector('.main').style.display = 'none';
+    document.getElementById("search-div").style.display = "block";
   })
 
   sliderContainer.appendChild(prevNext);
   sliderContainer.appendChild(button);
   document.querySelector('.main').style.display = 'block';
-  
-  
+  document.getElementById("search-div").style.display = "none";
+
+
   // hide image aria
   imagesArea.style.display = 'none';
   const duration = document.getElementById('duration').value || 1000;
