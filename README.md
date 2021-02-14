@@ -7,3 +7,4 @@ Bonus features:
 Mini Bonus features:
 1. A back button in the slider which takes user to the search bar.
 2. User can also use "Enter" key for the duration search box.
+3. User can't click the search button or use "Enter" key before writing something in the input field.
