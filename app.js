@@ -161,7 +161,7 @@ searchBtn.addEventListener('click', function () {
 
 sliderBtn.addEventListener('click', function () {
   const duration = document.getElementById("duration").value;
-  if (duration >= 1000 || duration == "") {
+  if (duration >= 1000) {
     createSlider();
   } else {
     alert("You can't choose a negative value or a value less then 1000");
