@@ -1,10 +1,8 @@
-# Assignment_6
+# Fancy Sliders
 
-Bonus features:
-1. Shows user friendly error message if any invalid input is given.
-2. Display a loading spinner if it takes time to bring the data form the API.
+features
+- User can search a image
+- User can select multiple image
+- User can make a slider with multiple images
 
-Mini Bonus features:
-1. A back button in the slider which takes user to the search bar.
-2. User can also use "Enter" key for the duration search box.
-3. User can't click the search button or use "Enter" key before writing something in the input field.
+https://samiun06.github.io/Assignment_6/
